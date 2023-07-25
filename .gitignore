@@ -12,14 +12,15 @@ wp-content/.*.swp
 wp-content/*.log
 
 # Ignore les fichiers spécifiques à Docker
-.dockerignore
-docker-compose.yml
+# .dockerignore
+# docker-compose.yml
+.docker/wordpress
 docker-compose.override.yml
-docker-compose.*.yml
+# docker-compose.*.yml
 
 # Ignore les fichiers de cache et d'environnement générés par Docker
-.docker/
-.env
+# .docker/
+# .env
 
 # Ignore les dépendances spécifiques à l'environnement local de chaque développeur
 vendor/
