@@ -1,0 +1,26 @@
+# Ignore les fichiers et répertoires spécifiques à WordPress
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/wordfence-waf.php
+wp-content/wordfence-waf.php/*
+wp-content/themes/*/node_modules/
+wp-content/plugins/*/node_modules/
+wp-content/.*.swp
+wp-content/*.log
+
+# Ignore les fichiers spécifiques à Docker
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Ignore les fichiers de cache et d'environnement générés par Docker
+.docker/
+.env
+
+# Ignore les dépendances spécifiques à l'environnement local de chaque développeur
+vendor/
+node_modules/
